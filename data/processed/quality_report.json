@@ -1,0 +1,29 @@
+{
+  "sheet": "T 1727_1991",
+  "rows_extracted": 92,
+  "name_column_index": 0,
+  "year_columns_indices": {
+    "1991": 2,
+    "2000": 3,
+    "2010": 5
+  },
+  "candidate_score": 378.4,
+  "complete_rows": 92,
+  "year_header_matches": 0,
+  "layout_detectado": "linhas_municipais_unicas",
+  "colunas_nome_por_ano": {
+    "1991": 0,
+    "2000": 0,
+    "2010": 0
+  },
+  "missing_values": {
+    "1991": 0,
+    "2000": 0,
+    "2010": 0
+  },
+  "duplicate_municipalities": 0,
+  "observacoes_municipio_ano": 276,
+  "observacoes_validas": 276,
+  "observacoes_ausentes": 0,
+  "analysis_coverage": "Valores ausentes permanecem nulos; nenhuma imputação"
+}

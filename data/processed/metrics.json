@@ -1,0 +1,149 @@
+{
+  "title": "IDHM municipal do Estado do Rio de Janeiro: 1991, 2000, 2010",
+  "years": [
+    1991,
+    2000,
+    2010
+  ],
+  "municipalities": 92,
+  "paired_municipalities": 92,
+  "annual_summary": [
+    {
+      "ano": 1991.0,
+      "n": 92.0,
+      "media": 0.4790326086956522,
+      "mediana": 0.483,
+      "desvio_padrao": 0.05739978387349833,
+      "minimo": 0.341,
+      "maximo": 0.681,
+      "amplitude": 0.34,
+      "p10": 0.4051,
+      "p90": 0.5406000000000001,
+      "amplitude_p90_p10": 0.13550000000000006
+    },
+    {
+      "ano": 2000.0,
+      "n": 92.0,
+      "media": 0.6792391304347827,
+      "mediana": 0.679,
+      "desvio_padrao": 0.03352459145467068,
+      "minimo": 0.596,
+      "maximo": 0.755,
+      "amplitude": 0.15900000000000003,
+      "p10": 0.6328,
+      "p90": 0.7208,
+      "amplitude_p90_p10": 0.08799999999999997
+    },
+    {
+      "ano": 2010.0,
+      "n": 92.0,
+      "media": 0.5938152173913044,
+      "mediana": 0.5905,
+      "desvio_padrao": 0.048508281687356374,
+      "minimo": 0.471,
+      "maximo": 0.79,
+      "amplitude": 0.31900000000000006,
+      "p10": 0.5401,
+      "p90": 0.6452000000000001,
+      "amplitude_p90_p10": 0.10510000000000008
+    }
+  ],
+  "mean_paired_gain": 0.11478260869565218,
+  "median_paired_gain": 0.11199999999999999,
+  "mean_paired_percent_gain": 24.78440896552831,
+  "all_positive_gains": true,
+  "positive_gain_count": 92,
+  "negative_gain_count": 0,
+  "unchanged_count": 0,
+  "corr_spearman_baseline_gain": -0.5360099608919425,
+  "corr_pearson_baseline_gain": -0.5347706146630803,
+  "top5_2010": [
+    {
+      "municipio": "Niterói",
+      "idhm_2010": 0.79
+    },
+    {
+      "municipio": "Rio de Janeiro",
+      "idhm_2010": 0.757
+    },
+    {
+      "municipio": "Macaé",
+      "idhm_2010": 0.683
+    },
+    {
+      "municipio": "Petrópolis",
+      "idhm_2010": 0.681
+    },
+    {
+      "municipio": "Nova Friburgo",
+      "idhm_2010": 0.671
+    }
+  ],
+  "bottom5_2010": [
+    {
+      "municipio": "São Francisco de Itabapoana",
+      "idhm_2010": 0.471
+    },
+    {
+      "municipio": "Cardoso Moreira",
+      "idhm_2010": 0.475
+    },
+    {
+      "municipio": "Trajano de Moraes",
+      "idhm_2010": 0.522
+    },
+    {
+      "municipio": "Silva Jardim",
+      "idhm_2010": 0.522
+    },
+    {
+      "municipio": "Tanguá",
+      "idhm_2010": 0.526
+    }
+  ],
+  "largest_absolute_gains": [
+    {
+      "municipio": "Sumidouro",
+      "ganho": 0.24999999999999994
+    },
+    {
+      "municipio": "Bom Jardim",
+      "ganho": 0.192
+    },
+    {
+      "municipio": "São José de Ubá",
+      "ganho": 0.182
+    },
+    {
+      "municipio": "Guapimirim",
+      "ganho": 0.16499999999999992
+    },
+    {
+      "municipio": "Tanguá",
+      "ganho": 0.16200000000000003
+    }
+  ],
+  "smallest_absolute_gains": [
+    {
+      "municipio": "Aperibé",
+      "ganho": 0.052000000000000046
+    },
+    {
+      "municipio": "Paraíba do Sul",
+      "ganho": 0.06599999999999995
+    },
+    {
+      "municipio": "Mesquita",
+      "ganho": 0.06699999999999995
+    },
+    {
+      "municipio": "Engenheiro Paulo de Frontin",
+      "ganho": 0.06899999999999995
+    },
+    {
+      "municipio": "Miracema",
+      "ganho": 0.07099999999999995
+    }
+  ],
+  "rj_capital_2010": 0.757
+}

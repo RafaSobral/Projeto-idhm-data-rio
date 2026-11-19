@@ -1,0 +1,10 @@
+{
+  "dataset_page": "https://www.data.rio/documents/5f39ef2738b7488bba7142b666a70f0b/about",
+  "download_url": "https://www.arcgis.com/sharing/rest/content/items/5f39ef2738b7488bba7142b666a70f0b/data",
+  "downloaded_at_utc": "2026-11-19T17:22:41.288332+00:00",
+  "sha256": "2bed85d8f816255cd09da35df75c7521e1facfa76ee5de8ed7c8eb0918994b7a",
+  "file_bytes": 101888,
+  "source_title": "Índice de Desenvolvimento Humano (IDH), por ordem decrescente, dos Municípios do Estado do Rio de Janeiro em 1991/2000/2010",
+  "source_publisher": "Prefeitura da Cidade do Rio de Janeiro / DATA.RIO",
+  "source_license": "CC BY 4.0 (conforme metadados do item no ArcGIS)"
+}
