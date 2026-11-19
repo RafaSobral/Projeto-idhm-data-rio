@@ -1,0 +1,54 @@
+name: Processar IDHM DATA.RIO e publicar artigo
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar projeto
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+      - name: Baixar fonte oficial, processar e gerar artigo
+        run: python scripts/build_all.py
+      - name: Validar estrutura e artigo
+        run: python scripts/validate_project.py
+      - name: Registrar dados brutos, resultados e artigo no repositório
+        run: |
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git add data/raw data/processed docs
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: atualizar análise IDHM com dados oficiais'
+            git push
+          fi
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Enviar artigo HTML para Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
